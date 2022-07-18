@@ -1,8 +1,8 @@
 import React from 'react';
 import './sidenavbar.css';
 
-import github from '../../images/github-logo.png';
-import linkedin from '../../images/linked-in-logo.png';
+import github from '../../images/github.png';
+import linkedin from '../../images/linkedin.png';
 
 const SideNavBar = (props) => {
 
