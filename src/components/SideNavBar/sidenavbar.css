@@ -14,11 +14,24 @@
     align-items: center;
 }
 
-h1 {
+.navbar-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: center;
+    align-items: space-between;
+    z-index: auto;
+}
+
+.navbar-text h1 {
     color: white;
     writing-mode: vertical-lr;
     text-orientation: upright;
     font-weight: 800;
-    font-size: large;
-    padding-top: 20px;
+    font-size: 31px;
+    padding-top: 30px;
+
+    animation: flicker 1.5s infinite alternate;
+  
 }

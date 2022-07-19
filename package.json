@@ -28,7 +28,8 @@
     "file-loader": "^6.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "react-typewriter-effect": "^1.1.0"
   },
   "jest": {
     "moduleNameMapper": {

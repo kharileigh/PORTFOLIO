@@ -1,34 +1,49 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import './sidenavbar.css';
 
 import github from '../../images/github.png';
 import linkedin from '../../images/linkedin.png';
 
-const SideNavBar = (props) => {
+const SideNavBar = () => {
 
     return (
 
-        <div className='sidenavbar'>
+        <nav className='sidenavbar'>
 
-            <a href="">
-                <img src={github} width="50" height="50" alt="GitHub Logo" />
-            </a>
+            <NavLink role="link" to="https://github.com/kharileigh">
+                <img 
+                    src={github} 
+                    width="50" 
+                    height="50" 
+                    alt="kharileigh GitHub Profile" 
+                />
+            </NavLink>
+
             <br></br>
-            <a href="">
-                <img src={linkedin} width="50" height="50" alt="LinkedIn Logo" />
-            </a>
-            <div className="navbar-text">
+
+            <NavLink role="link" to="https://www.linkedin.com/in/khari-leigh-miller/?trk=people-guest_people_search-card&challengeId=AQGJJxeZNUkoagAAAX_xrrawlVWvErFYFg8oWw7gIs8x5ASKdjtN6EFESuLQR-M_i9dHRLymsetYm9yFaMyF-fn8TbppeK6Ztg&submissionId=1d31b615-8885-e216-7e03-bddc371d8655&original_referer=&originalSubdomain=uk">
+                <img 
+                    src={linkedin} 
+                    width="50" 
+                    height="50" 
+                    alt="Khari-Leigh Miller LinkedIn Profile" 
+                />
+            </NavLink>
+
+            <header className="navbar-text">
+                
                 <h1>
                 J U N I O R 
-                </h1>
+                <br></br> 
                 <br></br>
-                <br></br>
-                <h1>
-                    D E V E L O P E R
+                D E V E L O P E R
                 </h1>
-            </div>
+        
+            </header>
 
-        </div>
+        </nav>
     );
 };
 
