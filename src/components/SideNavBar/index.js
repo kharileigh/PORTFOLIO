@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import './sidenavbar.css';
+import './SideNavBar.css';
 
 import github from '../../images/github.png';
 import linkedin from '../../images/linkedin.png';
