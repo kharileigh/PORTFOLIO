@@ -76,7 +76,6 @@ const LandingPage = () => {
 
                 </div>
 
-                <br></br>
 
                 <div className="button-container">
                     
