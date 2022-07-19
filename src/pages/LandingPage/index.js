@@ -1,10 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 import './Landing.css';
 import profile from '../../images/profile.png';
 
 const LandingPage = () => {
+
+    const navigate = useNavigate();
+
+    const handleEntry = (e) => {
+        navigate('/info');
+    }
 
     return (
 
@@ -72,9 +79,10 @@ const LandingPage = () => {
                 <br></br>
 
                 <div className="button-container">
+                    
                         <button type="button" 
                                 className="landing-button" 
-                                // onClick={handleEntry} 
+                                onClick={handleEntry} 
                         >
                         <span className="text">Unpack My Story </span>
                         </button>
