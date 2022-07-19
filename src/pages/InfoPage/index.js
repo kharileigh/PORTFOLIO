@@ -63,7 +63,7 @@ const InfoPage = () => {
 
                     <div className="info-brief-container">
                         <h2>
-                            A freelance creative now transitioning into tech.
+                            A freelance creative now transitioning into tech
                         </h2>
                     </div>
 
@@ -102,7 +102,7 @@ const InfoPage = () => {
 
                     <div className="info-brief-container">
                         <h2>
-                            A portfolio of full-stack web applications.
+                            A portfolio of full-stack web applications
                         </h2>
                     </div>
 
@@ -141,7 +141,7 @@ const InfoPage = () => {
 
                     <div className="info-brief-container">
                         <h2>
-                            A range of tools, languages, libraries & frameworks.
+                            A range of languages, libraries & frameworks
                         </h2>
                     </div>
 

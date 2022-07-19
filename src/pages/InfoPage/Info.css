@@ -20,12 +20,16 @@
     margin-top: -1%;
 }
 
-.info-content-container h2 {
-    border-radius: 60px;
-    padding: 12px;
+.info-content-container  h2 {
+    border-radius: 66px;
+    padding: 20px;
+
+    color:rgb(9, 9, 9);
+    font-size: 1.65em;
+    line-height: 30px;
 
     background-color: rgba(193,160,224, 0.3);
-    text-shadow: rgba(244, 244, 244, 0.5);
+    text-shadow: rgba(21, 24, 29, 0.9);
 }
 
 .info-icon-container {
@@ -152,7 +156,7 @@
 
 .info-button:after {
     background-color: initial;
-    background-image: linear-gradient(90deg, rgba(95,51,82,1) 21%, rgba(68,56,116,1) 100%);;
+    background-image: linear-gradient(90deg, rgba(95,51,82,1) 21%, rgba(68,56,116,1) 100%);
     bottom: 4px;
     color: black;
     content: "";
