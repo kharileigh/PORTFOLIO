@@ -16,6 +16,7 @@ const App = () => {
                 <SideNavBar />
                 <Routes>
                     <Route path="/" element={<Pages.LandingPage />} />
+                        <Route path="/info" element={<Pages.InfoPage />} />
                 </Routes>
             </main>
         </div>
