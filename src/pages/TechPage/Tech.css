@@ -3,7 +3,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
 
     height: 100%;
@@ -11,9 +11,10 @@
 }
 
 .tech-content-container {
-    align-items: center;
+    align-content: space-between;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     position: relative;
     overflow: hidden;
@@ -24,10 +25,10 @@
 
     top: 30%;
     left: 30%;
-    width: 55%;
+    width: 45%;
     height: 350px;
     padding: 20px;
-    margin-top: -300px;
+    margin-top: -320px;
     margin-right: 44%;
     
     background: rgba(0, 0, 0, 0.5);
@@ -37,4 +38,21 @@
     -webkit-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
    
     text-shadow: 0 0 0.125em rgba(254, 254, 254);
+}
+
+.tech-stack-row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.tech-stack {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    margin: 5px;
+    padding: 11px;
 }
