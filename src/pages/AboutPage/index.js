@@ -3,15 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 import './About.css';
+import resume from '../../images/resume.pdf';
 import { PageNavBar } from '../../components';
 
 const AboutPage = () => {
 
-    const navigate = useNavigate();
-
-    // function handleCV {
-    //     navigate()
-    // }
+    function onResumeClick() {
+        window.open(resume);
+    }
 
     return (
 
@@ -60,7 +59,7 @@ const AboutPage = () => {
                     
                         <button type="about-button" 
                                 className="landing-button" 
-                                // onClick={handleCV} 
+                                onClick={onResumeClick} 
                         >
                         <span className="about-text">VIEW FULL RESUME</span>
                         </button>
