@@ -1,27 +1,52 @@
 /* Animated Icons by Lordicon.com-> "https://lordicon.com/"  */
 
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 100%;
+
+    margin-bottom: 400px;
+    padding: 25px;
+    width: 200%;
+}
+
 .page-navbar {
+    align-items: right;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+    border-radius: 150px;
+    border-width: 40px;
+    left: 360px;
+    margin-left: 5px;
+    top: -9px;
+    padding: 2px;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    -moz-box-shadow: 0px 0px 44px 1px rgb(68, 18, 167), 0px 0px 20px 1px rgba(18, 74, 167, 1);
+    -webkit-box-shadow: 0px 0px 44px 1px rgba(68, 18, 167, 0), 0px 0px 20px 1px rgba(18, 74, 167, 1);
+
+}
+
+.page-navlink-image {
     align-items: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    position: sticky;
-    overflow: hidden;
-    text-align: center;
+    justify-content: end;
 
-    border-radius: 150px;
-    border-width: 40px;
+    margin-bottom: 14px;
+    margin-left: 25px;
+}
 
-    
-    width: 55%;
-    height: 350px;
-    padding: 20px;
-    
-    background: rgba(0, 0, 0, 0.5);
-   
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    -moz-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
-    -webkit-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
-   
-    text-shadow: 0 0 0.125em rgba(254, 254, 254);
+.page-navlink-text {
+    color: white;
+    font-size: 90%;
+
+    position: relative;
+    right: 55px;
+    top: 35px;
 }

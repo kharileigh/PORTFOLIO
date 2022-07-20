@@ -2,7 +2,7 @@
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     position: relative;
 
@@ -27,7 +27,7 @@
     width: 55%;
     height: 350px;
     padding: 20px;
-    margin-top: 170px;
+    margin-top: -300px;
     margin-right: 44%;
     
     background: rgba(0, 0, 0, 0.5);
