@@ -28,7 +28,12 @@ const config = {
             {
                 test: /\.(png|svg|jpg|gif|pdf)$/,
                 use: ['file-loader'],
+            },
+            {
+                test: /\.mp4$/i,
+                use: ['raw-loader'],
             }
+                
         ]
     },
     mode: "none"
