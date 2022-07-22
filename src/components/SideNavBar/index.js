@@ -12,7 +12,13 @@ const SideNavBar = () => {
 
         <nav className='sidenavbar'>
 
-            <NavLink className="navlink-image" role="link" to="https://github.com/kharileigh">
+            <a 
+            className="navlink-image" 
+            href="https://github.com/kharileigh"
+            aria-label="Khari - Leigh Miller GitHub"
+            rel="noopener"
+            target="_blank"
+            >
                 <img 
                     src={github} 
                     width="50" 
@@ -22,18 +28,24 @@ const SideNavBar = () => {
                         borderRadius:"90px",
                     }}
                 />
-            </NavLink>
+            </a>
 
             <br></br>
 
-            <NavLink className="navlink-image" role="link" to="https://www.linkedin.com/in/khari-leigh-miller/?trk=people-guest_people_search-card&challengeId=AQGJJxeZNUkoagAAAX_xrrawlVWvErFYFg8oWw7gIs8x5ASKdjtN6EFESuLQR-M_i9dHRLymsetYm9yFaMyF-fn8TbppeK6Ztg&submissionId=1d31b615-8885-e216-7e03-bddc371d8655&original_referer=&originalSubdomain=uk">
+            <a 
+            className="navlink-image" 
+            href="https://www.linkedin.com/in/khari-leigh-miller/?trk=people-guest_people_search-card&challengeId=AQGJJxeZNUkoagAAAX_xrrawlVWvErFYFg8oWw7gIs8x5ASKdjtN6EFESuLQR-M_i9dHRLymsetYm9yFaMyF-fn8TbppeK6Ztg&submissionId=1d31b615-8885-e216-7e03-bddc371d8655&original_referer=&originalSubdomain=uk"
+            aria-label="Khari - Leigh Miller LinkedIn Profile"
+            rel="noopener"
+            target="_blank"
+            >
                 <img 
                     src={linkedin} 
                     width="50" 
                     height="50" 
                     alt="Khari-Leigh Miller LinkedIn Profile" 
                 />
-            </NavLink>
+            </a>
 
             <header className="navbar-text">
                 
