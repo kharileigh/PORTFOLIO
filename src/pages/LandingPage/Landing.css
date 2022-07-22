@@ -132,7 +132,7 @@
 
 .landing-button:after {
     background-color: initial;
-    background-image: linear-gradient(90deg, rgba(95,51,82,1) 21%, rgba(68,56,116,1) 100%);;
+    background-image: linear-gradient(90deg, rgba(95,51,82,1) 21%, rgba(68,56,116,1) 100%);
     bottom: 4px;
     color: black;
     content: "";
