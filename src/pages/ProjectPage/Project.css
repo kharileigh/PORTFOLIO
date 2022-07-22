@@ -1,13 +1,13 @@
 .project-main-container {
     align-items: center;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-
+    
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
     overflow-y: scroll;
 }
 
@@ -28,46 +28,43 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    overflow: hidden;
     text-align: center;
 
     border-radius: 80px;
     border-width: 40px;
-
-    top: 30%;
     left: 30%;
-    width: 65%;
     height: 400px;
     padding: 20px;
     margin-top: -320px;
     margin-right: 44%;
+    overflow: hidden;
+    top: 30%;
+    width: 65%;
     
     background: rgba(0, 0, 0, 0.5);
-   
+    text-shadow: 0 0 0.125em rgba(254, 254, 254);
+
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     -moz-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
     -webkit-box-shadow: 0px 0px 44px 1px rgba(18, 74, 167, 1), 0px 0px 20px 1px rgba(18, 74, 167, 1);
-   
-    text-shadow: 0 0 0.125em rgba(254, 254, 254);
 }
 
 .project-card {
     align-items: center;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
-
     position: relative;
-    width: 100%;
+    text-align: center;
+
+    border: 5px solid #242329;
+    border-radius: 80px;
     height: 390px;
     margin-top: -5px;
+    overflow: hidden;
+    width: 100%;
+
     background-image: linear-gradient(90deg, rgba(95,51,82,1) 21%, rgba(68,56,116,1) 100%);
     color: linear-gradient(90deg, rgba(193,160,224,1) 21%, rgba(157,59,173,1) 100%);
-    text-align: center;
-    border: 5px solid #242329;
-    overflow: hidden;
-
-    border-radius: 80px;
 }
 
 
@@ -82,52 +79,60 @@
 }
 
 .project-image {
-    width: 100%;
     height: 100%;
-    /* object-fit: cover; */
-    transition: transform .35s .35s;
-    /* margin-top: 2px; */
+    width: 100%;
     top: -200px;
+
+    transition: transform .35s .35s; 
+}
+
+#project-unwind-image {
+    padding-top: 2.5px;
 }
 
 .project-data {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+
     height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
     transform: translateY(-310px);
     transition: transform .5s;
 }
 
 .project-title {
     font-size: 55px;
-    text-transform: uppercase;
-    color: #fff;
-
     margin-bottom: -28px;
+
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .project-description {
-    padding: 20px;
-    margin-bottom: 10px;
     line-height: 25px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
     color: rgba(254, 254, 254, 0.718)
 }
 
 .project-technology {
     font-size: 30px;
+
     top: 5px;
-    top: -20px;
+    /* top: -20px; */
     margin-bottom: -38px;
     margin-top: 10px;
 }
 
 .project-technologies {
-    top: 5px;
+    line-height: 22px;
+    
     margin-bottom: 10px;
-   margin-top: 55px;
-   line-height: 22px;
+    margin-top: 55px;
+    top: 5px;
 }
 
 .project-links {
@@ -135,19 +140,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    padding: 5px;
-    padding-top: 15px;
     position: fixed;
-    z-index: 1;
 
     height: 100%;
-    left: 68%;
+    left: 70%;
+    overflow-x: hidden;
+    padding: 5px;
+    padding-top: 15px;
     top: -140px;
     width: 15%;
-    
-    /* background-color: black; */
-    overflow-x: hidden;
+    z-index: 1;
+
     transition: 0.5s ease;
 }
 
@@ -157,22 +160,21 @@
     flex-direction: row;
     justify-content: center;
 
-    
-    text-decoration: none;
+    background-color: #846bff;
+    border-radius: 50%;
     padding: 12px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #846bff;
-    border-radius: 50%;
-    /* background-color: #fff; */
-    transition: background-color .25s;
     
+    text-decoration: none;
+    transition: background-color .25s;
 }
 
 .external-link:hover {
+    border-radius: 50%;
+
     background-color: #242329;
     color: #fff;
-    border-radius: 50%;
 }
 
 .project-card:hover .project-data:hover {

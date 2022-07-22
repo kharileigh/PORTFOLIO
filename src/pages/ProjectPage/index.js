@@ -258,11 +258,14 @@ const ProjectPage = () => {
 
                                 <div className="project-image-container">
                                     <img 
+                                        id="project-unwind-image"
                                         className="project-image"
                                         src={unwind}
                                         alt="Unwind Project"
                                         style={{
                                             borderRadius:"8px",
+                                            paddingLeft: "25px",
+                                            paddingRight: "25px",
                                         }}
                                     />
                                 </div>
