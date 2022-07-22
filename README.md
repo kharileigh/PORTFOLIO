@@ -11,6 +11,6 @@
 - **`npm run dev` to run development environment**
 - **open browser on** `[http://localhost:8080/](http://localhost:8080/)`
 
-**Animated Icons by Lordicon.com-> "[https://lordicon.com/](https://lordicon.com/)**
+**Animated Icons by Lordicon.com-> [https://lordicon.com/](https://lordicon.com/)**
 
 ### Deployed Link →
