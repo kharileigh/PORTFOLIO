@@ -1,4 +1,9 @@
 {
+  "name": "portfolio-khari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
   "scripts": {
     "test": "jest --watch --setupFilesAfterEnv ./src/test/setupTests.js",
     "dev": "webpack-cli serve --mode development --config ./config/webpack.config.dev.js",
