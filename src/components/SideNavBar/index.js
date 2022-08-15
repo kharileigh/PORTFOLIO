@@ -15,7 +15,7 @@ const SideNavBar = () => {
             className="navlink-image" 
             href="https://github.com/kharileigh"
             aria-label="Khari - Leigh Miller GitHub"
-            rel="noopener"
+            rel="noreferrer"
             target="_blank"
             >
                 <img 
@@ -35,7 +35,7 @@ const SideNavBar = () => {
             className="navlink-image" 
             href="https://www.linkedin.com/in/khari-leigh-miller/?trk=people-guest_people_search-card&challengeId=AQGJJxeZNUkoagAAAX_xrrawlVWvErFYFg8oWw7gIs8x5ASKdjtN6EFESuLQR-M_i9dHRLymsetYm9yFaMyF-fn8TbppeK6Ztg&submissionId=1d31b615-8885-e216-7e03-bddc371d8655&original_referer=&originalSubdomain=uk"
             aria-label="Khari - Leigh Miller LinkedIn Profile"
-            rel="noopener"
+            rel="noreferrer"
             target="_blank"
             >
                 <img 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import './Project.css';
 import elevate from '../../images/elevate.png';
@@ -52,7 +51,7 @@ const ProjectPage = () => {
                                         className="external-link"  
                                         href="https://github.com/kharileigh/theMotive.git"
                                         aria-label="theMotive Repository"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -70,7 +69,7 @@ const ProjectPage = () => {
                                         className="external-link"  
                                         href="https://the-motive-one.herokuapp.com/"
                                         aria-label="theMotive Website"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -129,7 +128,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://github.com/kharileigh/3L3VAT3-.git"
                                         aria-label="3L3VAT3 Repository"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -147,7 +146,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://lap3-project-3l3vat3.herokuapp.com"
                                         aria-label="3L3VAT3 Website"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank">
                                             <img 
                                                 src={website} 
@@ -203,7 +202,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://github.com/kharileigh/HABITAT.git"
                                         aria-label="HABITAT Repository"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -221,7 +220,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://github.com/kharileigh"
                                         aria-label="Khari - Leigh GitHub Repository"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -280,7 +279,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://github.com/kharileigh/unwind-one.git"
                                         aria-label="UNWIND Repository"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 
@@ -298,7 +297,7 @@ const ProjectPage = () => {
                                         className="external-link" 
                                         href="https://github.com/kharileigh"
                                         aria-label="Khari - Leigh Miller GitHub"
-                                        rel="noopener"
+                                        rel="noreferrer"
                                         target="_blank"
                                         >
                                             <img 

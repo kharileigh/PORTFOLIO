@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 import './About.css';

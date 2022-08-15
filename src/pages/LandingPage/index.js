@@ -25,8 +25,8 @@ const LandingPage = () => {
                     
                 <img 
                     fluid="true"
+                    alt="Profile"
                     src={profile}
-                    alt="Profile Picture"
                     width='220'
                     height='275'
                     style={{
