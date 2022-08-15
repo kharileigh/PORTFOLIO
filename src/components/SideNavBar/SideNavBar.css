@@ -1,0 +1,38 @@
+.sidenavbar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20px;
+    position: fixed;
+    z-index: 1;
+
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 15%;
+    
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s ease;
+}
+
+.navbar-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: auto;
+}
+
+.navbar-text h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 31px;
+    padding-top: 30px;
+    
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+
+    animation: flicker 1.5s infinite alternate;
+}
+
