@@ -182,6 +182,6 @@
 }
 
 .project-card:hover .project-image {
-    transform: translateX(700px);
-    transition-delay: 0s;
+    transform: translateY(700px);
+    transition-delay: -25s;
 }
