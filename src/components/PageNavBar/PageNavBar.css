@@ -36,7 +36,7 @@ nav {
     align-items: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
 
     margin-bottom: 14px;
     margin-left: 25px;
