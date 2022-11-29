@@ -2,7 +2,7 @@ import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 import './About.css';
-import resume from '../../images/resume.pdf';
+import resume from '../../images/cv.pdf';
 import { PageNavBar } from '../../components';
 
 const AboutPage = () => {
