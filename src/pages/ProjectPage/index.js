@@ -4,7 +4,7 @@ import './Project.css';
 import elevate from '../../images/elevate.png';
 import github from '../../images/github.png';
 import habitat from '../../images/habitat.png';
-import motive from '../../images/motive.png';
+import metro from '../../images/centralmetrosystem.png';
 import unwind from '../../images/unwind.png';
 import website from '../../images/website.png';
 
@@ -25,7 +25,7 @@ const ProjectPage = () => {
             {/* ------------------------------------ PROJECT INFO CARDS ----------------------------------- */}
             <div className="project-row">
 
-                {/* --------------------- LAP 4: the.MOTIVE ------------------ */}
+                {/* --------------------- Wiley Edge Final Project : Central Metro System ------------------ */}
                 <div className="project-content-container" >
 
                             <div className="project-card">
@@ -33,8 +33,8 @@ const ProjectPage = () => {
                                 <div className="project-image-container">
                                     <img 
                                         className="project-image"
-                                        src={motive}
-                                        alt="3L3VAT3 Project"
+                                        src={metro}
+                                        alt="Central Metro System Project"
                                         style={{
                                             borderRadius:"8px",
                                         }}
@@ -44,13 +44,13 @@ const ProjectPage = () => {
                                 <div className="project-data">
                                     
                                     <h2 className="project-title">
-                                        MOTIVE
+                                        CENTRAL METRO SYSTEM
                                     </h2>
                                     <div className="project-links">
                                         <a 
                                         className="external-link"  
-                                        href="https://github.com/kharileigh/theMotive.git"
-                                        aria-label="theMotive Repository"
+                                        href="https://github.com/kharileigh/MetroSystem.git"
+                                        aria-label="Central Metro System Repository"
                                         rel="noreferrer"
                                         target="_blank"
                                         >
@@ -58,7 +58,7 @@ const ProjectPage = () => {
                                                 src={github} 
                                                 width="30" 
                                                 height="30" 
-                                                alt="HABITAT GitHub Repository" 
+                                                alt="Central Metro System GitHub Repository" 
                                                 style={{
                                                     borderRadius:"90px",
                                                 }}
@@ -67,8 +67,8 @@ const ProjectPage = () => {
                                         <br></br>
                                         <a 
                                         className="external-link"  
-                                        href="https://the-motive-one.herokuapp.com/"
-                                        aria-label="theMotive Website"
+                                        href="https://github.com/kharileigh"
+                                        aria-label="Khari - Leigh GitHub Repository"
                                         rel="noreferrer"
                                         target="_blank"
                                         >
@@ -76,7 +76,7 @@ const ProjectPage = () => {
                                                 src={website} 
                                                 width="30" 
                                                 height="30" 
-                                                alt="HABITAT Deployed Website" 
+                                                alt="Khari - Leigh GitHub Repository" 
                                                 style={{
                                                     borderRadius:"90px",
                                                 }}
@@ -84,10 +84,10 @@ const ProjectPage = () => {
                                         </a>
                                     </div>
                                     <p className="project-description">
-                                    For those who thrive in spontaneity, the.MOTIVE is a mobile-first, local food and drink to keep your night going, by finding nearby venues based on your current geo-location.
+                                    A mobile application that makes travelling simple by swiping in and out, straight from your device.
                                     </p>
                                     <h3 className="project-technology">Technologies</h3>
-                                    <h4 className="project-technologies">CSS, Flask, HTML, Heroku, JavaScript, Node.js, PostgresSQL, React, Redis, Redux, SQL Alchemy, SQL Lite </h4>
+                                    <h4 className="project-technologies"> CSS, HTML, Java, MySQL, REST API, SpringBoot, SQL </h4>
                                 
                                 </div>
 
@@ -135,7 +135,7 @@ const ProjectPage = () => {
                                                 src={github} 
                                                 width="30" 
                                                 height="30" 
-                                                alt="HABITAT GitHub Repository" 
+                                                alt="3L3VAT3 GitHub Repository" 
                                                 style={{
                                                     borderRadius:"90px",
                                                 }}
@@ -152,7 +152,7 @@ const ProjectPage = () => {
                                                 src={website} 
                                                 width="30" 
                                                 height="30" 
-                                                alt="HABITAT Deployed Website" 
+                                                alt="3l3VAT3 Deployed Website" 
                                                 style={{
                                                     borderRadius:"90px",
                                                 }}
@@ -185,7 +185,7 @@ const ProjectPage = () => {
                                     <img 
                                         className="project-image"
                                         src={habitat}
-                                        alt="Unwind Project"
+                                        alt="HABITAT Project"
                                         style={{
                                             borderRadius:"8px",
                                         }}
@@ -201,7 +201,7 @@ const ProjectPage = () => {
                                         <a 
                                         className="external-link" 
                                         href="https://github.com/kharileigh/HABITAT.git"
-                                        aria-label="HABITAT Repository"
+                                        aria-label="HABITAT GitHub Repository"
                                         rel="noreferrer"
                                         target="_blank"
                                         >
@@ -227,7 +227,7 @@ const ProjectPage = () => {
                                                 src={website} 
                                                 width="30" 
                                                 height="30" 
-                                                alt="HABITAT Deployed Website" 
+                                                alt="Khari - Leigh GitHub Repository" 
                                                 style={{
                                                     borderRadius:"90px",
                                                 }}
@@ -278,7 +278,7 @@ const ProjectPage = () => {
                                         <a 
                                         className="external-link" 
                                         href="https://github.com/kharileigh/unwind-one.git"
-                                        aria-label="UNWIND Repository"
+                                        aria-label="UNWIND GitHub Repository"
                                         rel="noreferrer"
                                         target="_blank"
                                         >
